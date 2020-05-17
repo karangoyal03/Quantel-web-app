@@ -1,0 +1,28 @@
+
+
+body{
+    background-color: 	#000133;
+    font-family: 'Quicksand',sans-serif;
+}
+#navbar{
+
+    background-color: #202020;
+    text-decoration: none;
+}
+
+#searchBar{
+    width: 300px;   
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid orangered;
+    text-decoration: none;
+}
+#searchBarforsmallsection{
+    width: 200px;
+    
+}
+
+/* #searchBtn{
+ height: -30px;
+} */
