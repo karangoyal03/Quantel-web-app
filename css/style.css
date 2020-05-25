@@ -2,7 +2,7 @@ body {
   font-family: poppins, sans-serif;
 }
 #navbar {
-  background-color: black;
+  background-color: #283e4a;
   text-decoration: none;
 }
 
@@ -10,13 +10,167 @@ body {
   width: 300px;
 }
 
-.nav-link:hover {
-  color: orangered;
+.nav-link {
+  color: rgb(245, 240, 238);
   text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgb(194, 191, 189);
 }
 #searchBarforsmallsection {
   width: 200px;
 }
 
+.context {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  margin-top: 30px;
+}
 
+#navbarNav {
+  padding: 0;
+  margin: 0;
+  background-color: aliceblue;
+}
 
+.leftdivpart1 {
+  padding: 10px;
+  background-color: rgb(229, 234, 236);
+}
+
+#middlenav {
+  background-color: #4772d9;
+  color: white;
+}
+
+#belowmiddlenavsection {
+  background-color: beige;
+  padding: 20px;
+}
+
+#logoimg {
+  height: 130px;
+  width: 130px;
+}
+
+#infologo {
+  height: 45px;
+  width: 45px;
+  margin-left: 500px;
+}
+
+.lowerhalf {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.lowerhalf .image {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.text-1 {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.text-2 {
+  margin-left: 200px;
+  font-size: 1.3rem;
+  margin-top: 5px;
+  font-weight: bold;
+}
+#rightnavbar {
+  background-color: #1d405a;
+}
+
+#searchValforright {
+  padding: 20px;
+  margin-top: 8px;
+  margin-bottom: -18px;
+  width: 200px;
+}
+
+.icononright {
+  color: rgb(160, 160, 160);
+  position: relative;
+  top: -20px;
+  left: 250px;
+}
+#rightlogo {
+  margin-left: 60px;
+  height: 25px;
+  width: 25px;
+}
+
+.icononright a i {
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 5px;
+}
+
+#belowrightnavpart-1 {
+  background-color: #e0e0e0;
+}
+
+#contentheadingpart-1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: aliceblue;
+}
+
+#contentheadingpart-1:hover {
+  background-color: #fda50f;
+  color: white;
+}
+
+.rightsectionlink {
+  margin-top: 60px;
+  margin-left: 220px;
+  margin-bottom: 20px;
+}
+
+#fullquestionsection {
+  background-color: #f0f0f0;
+}
+
+#ques {
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: white;
+  
+}
+
+.questionicon {
+  color: #4772d9;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.questionicon:hover {
+  color: orangered;
+  font-size: 2rem;
+}
+
+.lineshape {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 500px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.radiolikequestion{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
